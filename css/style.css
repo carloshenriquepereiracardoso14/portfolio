@@ -86,6 +86,24 @@ main{
     animation-delay: 2.5s;
 }
 
+.estrela:nth-child(6){
+    top: 55%;
+    left: 40px;
+    animation-delay: 3s;
+}
+
+.estrela:nth-child(7){
+    top: 35%;
+    left: 100px;
+    animation-delay: 3.5s;
+}
+
+.estrela:nth-child(8){
+    top: 85%;
+    left: 80px;
+    animation-delay: 4s;
+}
+
 @keyframes acender{
     0%, 100%{
         opacity: 1;
@@ -181,7 +199,7 @@ main{
     border-radius: 6px;
     cursor: pointer;
     opacity: 1;
-    transition: opacity .3s ease-in-out, width 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .btn:hover{
