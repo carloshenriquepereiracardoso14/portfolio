@@ -59,6 +59,7 @@ main{
     top: 10%;
     animation: acender 5s infinite, mover 15s infinite linear;
     box-shadow: 0 0 5px #fff;
+    z-index: -1;
 }
 
 .estrela:nth-child(2){
