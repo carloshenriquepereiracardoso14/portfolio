@@ -357,14 +357,14 @@ main{
 }
 
 .card-projeto{
-    width: 550px;
-    display: grid;
-    grid-template-columns: 200px 1fr;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     background: var(--cor-btn);
     align-items: start;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: -10px 10px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgb(0, 140, 255);
     transition: 0.3s ease-in-out;
 }
 
@@ -407,12 +407,16 @@ main{
 
 .descricao-projeto{
     width: 100%;
-    height: 55px;
+    height: 100px;
     overflow-y: auto;
 }
 
 .descricao-projeto::-webkit-scrollbar-thumb{
     background: var(--cor-letras-txt);
+}
+
+.descricao-projeto::-webkit-scrollbar-track {
+    border-radius: 6px;
 }
 
 .descricao-projeto::-webkit-scrollbar{
@@ -442,9 +446,5 @@ main{
         gap: 50px;
         justify-content: center;
         padding: 150px 15px 15px;
-    }
-
-    .card-projeto{
-        grid-template-columns: 1fr;
     }
 }
