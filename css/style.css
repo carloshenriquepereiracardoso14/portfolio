@@ -391,18 +391,8 @@ main{
     color: var(--cor-letras-txt);
 }
 
-.cont-nome a{
-    width: 100%;
-    border-radius: 20px;
-    height: 40px;
-    background: #e6e6e6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #1e1e1e;
+.cont-card-projeto a{
     text-decoration: none;
-    font-weight: 500;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .descricao-projeto{
